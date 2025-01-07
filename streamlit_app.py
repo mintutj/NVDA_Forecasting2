@@ -103,7 +103,7 @@ def main():
 
     # Define the mapping of tickers to their corresponding files and model paths
     ticker_to_paths = {
-        'NVDA': {'csv': './data/NASDAQ_NVDA_5min_with_indicator.csv', 'model': './models/checkpoints0'},
+        'NVDA': {'csv': './data/NASDAQ_NVDA_5min_with_indicator.csv', 'model': './models/checkpoints'},
         'AAPL': {'csv': 'path_to_aapl.csv', 'model': './models/checkpoints_aapl'},
         'SPY': {'csv': 'path_to_spy.csv', 'model': './models/checkpoints_spy'},
     }
